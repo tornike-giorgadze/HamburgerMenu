@@ -15,6 +15,7 @@ nav{
 nav .mainMenu{
     display: flex;
     list-style: none;
+    color:#fff;
 }
 nav .mainMenu li a {
     display: inline-block;
@@ -68,6 +69,7 @@ nav .logo{
         align-items: center;
         transition: top 1s ease;
         display: none;
+        color: #fff;
     }
     nav .mainMenu .closeMenu {
         display: block;
@@ -75,14 +77,13 @@ nav .logo{
         top: 20px;
         right: 20px;
     }
-    .nav .openMenu{
+    nav .openMenu{
         display: block;
     }
     .nav .mainMenu li a:hover{
         background:none;
         color:rgb(255, 123, 0);
         font-size: 1.6rem;
-    }
     }
     .icons i{
         display: inline-block;
