@@ -67,26 +67,26 @@ nav .logo{
         justify-content: center;
         align-items: center;
         transition: top 1s ease;
-        display: none;
+        display: flex;
+        background: #000;
     }
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
         top: 20px;
         right: 20px;
+
     }
-    .nav .openMenu{
+    nav .openMenu {
         display: block;
     }
-    .nav .mainMenu li a:hover{
-        background:none;
-        color:rgb(255, 123, 0);
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(255, 123, 0);
         font-size: 1.6rem;
     }
-    }
-    .icons i{
+    .icons i {
         display: inline-block;
         padding: 12px;
-
     }
 }
