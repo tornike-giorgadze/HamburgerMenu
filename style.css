@@ -15,7 +15,6 @@ nav{
 nav .mainMenu{
     display: flex;
     list-style: none;
-    color:#fff;
 }
 nav .mainMenu li a {
     display: inline-block;
@@ -25,7 +24,7 @@ nav .mainMenu li a {
     color: #fff;
     font-size: 1.5rem;
 }
- .links:hover{
+nav .mainMenu li:hover{
     background: rgb(255,94,0);
 }
 nav .openMenu{
@@ -67,9 +66,9 @@ nav .logo{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background:#000;
         transition: top 1s ease;
-        display: none;
-        color: #fff;
+        display: flex;     
     }
     nav .mainMenu .closeMenu {
         display: block;
@@ -80,7 +79,7 @@ nav .logo{
     nav .openMenu{
         display: block;
     }
-    nav .mainMenu li a:hover{
+    nav .mainMenu li:hover{
         background:none;
         color:rgb(255, 123, 0);
         font-size: 1.6rem;
